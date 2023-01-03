@@ -1,0 +1,61 @@
+ul{
+    padding: 0px;
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+li{
+    padding: 7px;
+    display: inline;
+}
+body{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+button{
+    margin-top: 10px;
+    border: 0px;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 5px 10px 5px;
+    border-radius: 8px;
+}
+.top{
+    gap: 65px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px 10% 60px;
+}
+.header{
+    display: flex;
+}
+.underheader{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-around;
+}
+#fruitmix{
+  width: 470px;
+  height: auto;
+}
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+   margin-right: auto;
+}
+#awesome{
+    font-size: 48px;
+    color: #f9faf8;
+    
+}
+#box{
+    flex: 0 0 400px;
+  /* margin-right: auto;*/
+}

@@ -3,6 +3,7 @@ ul{
    list-style: none;
 }
 a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -18,19 +19,25 @@ p{
     margin: 0px;
 }
 button{
+    border: 2px solid white;
+    color: #e5e7eb;
     margin-top: 10px;
-    border: 0px;
     background-color: #3882f6;
     font-size: 18px;
-    padding: 5px 10px 5px;
+    padding: 5px 15px 5px;
     border-radius: 8px;
+}
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
 }
 .top{
     gap: 65px;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 10px 10% 60px;
+    padding: 10px 15% 60px;
 }
 .header{
     display: flex;
@@ -39,13 +46,53 @@ button{
     display: flex;
     font-size: 18px;
     color: #e5e7eb;
-    justify-content: space-around;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imgclass{
+    width: 250px;
+    height: auto;
+   color: #1f2937;
+   font-family: 'Courier New', Courier, monospace;
+}
+.images{
+width: 250px;
+height: auto;
+border: 5px solid #3882f6;
+border-radius: 8px;
+}
+.bottom{
+    flex-direction: column;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 0px 20%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 20px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #fruitmix{
-  width: 470px;
+    border-radius: 12px;
+  width: 490px;
   height: auto;
 }
 #logo{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     color: #f9faf8;
    margin-right: auto;
@@ -57,5 +104,31 @@ button{
 }
 #box{
     flex: 0 0 400px;
-  /* margin-right: auto;*/
+  margin-right: auto;
+}
+#quote{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #1f2937;
+}
+#karen{
+    display: flex;
+    width: 709px;
+    justify-content: flex-end;
+}
+#inside{
+    width: 75%;
+    display: flex;
+    background-color: #3882f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 0 1 auto;
+    padding: 40px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+#call{
+font-size: 18px;
+color: #e5e7eb;
+
 }
